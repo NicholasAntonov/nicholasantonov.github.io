@@ -1,0 +1,111 @@
+
+name:
+    first: Nicholas
+    last: Antonov
+
+
+whois:
+    - Software Developer
+    - Student
+    - Technology Enthusiast
+
+
+about:
+    name: Nicholas Antonov
+    address: "1 Castle Point Terrace, Hoboken N.J. Box S-0051"
+    phone: "+551 482-0926"
+    email: nicholas.antonov@gmail.com
+    github: github.com/nicholasantonov
+
+
+skills:
+    coding:
+        "JavaScript": 5
+        "Java, C++": 4
+        "Python": 3
+        "C, PHP": 2
+    tools:
+        "vim": 4
+        "Linux, Bash": 3
+        "Git": 3
+
+
+experiences:
+    - timespans:
+          - "8/15 ~ Present"
+      title: Fullstack Developer Internship
+      company: Occamsec
+      bullets:
+          - Sole developer in a small tech company
+          - Responsible for creating applications for internal use
+          - Built tools to store, analyze, and visualize data in graph databases
+          - Wrote scripts to automate tasks for penetration testers
+    - timespans:
+          - "5/14 ~ 8/14"
+          - "1/15 ~ 5/15"
+      title: Software Engineer Internship
+      company: Eikos Partners
+      bullets:
+          - Modified and extended our in-house JavaScript framework
+          - Refactored and built custom data visualizations using D3.js
+          - Built and packaged single page mobile web applications
+          - Worked as part of a cohesive programming team with git
+          - Modernized Javascript stack with tools like JSPM, Yeoman, and Gulp
+          - Worked with external clients to create reactive web applications
+
+
+
+projects:
+    - Modular Game engine with game to demonstrate features. C++, Ncurses.
+    - IRC bot that manipulates the chat of interactive twitch.tv streams. Python, Sockets.
+    - Gravity based game written for a 48 hours game jam. Java, OpenGL.
+    - Web based games written for 24 hour game jams. Javascript, HTML5, Canvas.
+    - Website for school spirit week, with a team. HTML, Javascript, CSS.
+    - Multiple reactive web applications using technologies such as Meteor and Mithril.
+
+currentEducation:
+    Stevens Institute of Technology:
+        status: Currently attending
+        major: Computer Science
+        notes:
+          - Upsilon Pi Epsilon CS Honors Society
+          - Presidential Scholarship
+          - Dean's List
+
+interests:
+    coding:
+        - Operating systems
+        - Compilers
+    hardware:
+        - Arduino
+        - RaspberryPi
+    misc:
+        - Motorcycles
+        - Drawing
+        - Piano
+
+
+status:
+    citizen: U.S. citizen
+    available: September 2015 ~ December 2015
+
+theme:
+    colors:
+        pri: "#2ECCFA"
+        sec: "#A4A4A4"
+
+    icons:
+        about: fa fa-user
+        skills: fa fa-bolt
+        skill: fa fa-cog
+        experience: fa fa-gavel
+        education: fa fa-graduation-cap
+        interests: fa fa-thumbs-up
+        level: fa fa-star
+        projects: fa fa-flask
+        details:
+            - fa fa-comment
+            - fa fa-map-marker
+            - fa fa-phone
+            - fa fa-envelope
+            - fa fa-github
