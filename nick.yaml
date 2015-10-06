@@ -12,7 +12,7 @@ whois:
 
 about:
     name: Nicholas Antonov
-    address: "1 Castle Point Terrace, Hoboken N.J. Box S-0051"
+    address: "1 Castle Point Terrace,<br/>Hoboken N.J. Box S-0051"
     phone: "+551 482-0926"
     email: nicholas.antonov@gmail.com
     github: github.com/nicholasantonov
@@ -25,7 +25,6 @@ skills:
         "Python": 3
         "C, PHP": 2
     tools:
-        "vim": 4
         "Linux, Bash": 3
         "Git": 3
 
@@ -87,7 +86,7 @@ interests:
 
 status:
     citizen: U.S. citizen
-    available: September 2015 ~ December 2015
+    available: May 2016 ~ August 2016
 
 theme:
     colors:
@@ -97,7 +96,8 @@ theme:
     icons:
         about: fa fa-user
         skills: fa fa-bolt
-        skill: fa fa-cog
+        coding: fa fa-code
+        tools: fa fa-wrench
         experience: fa fa-gavel
         education: fa fa-graduation-cap
         interests: fa fa-thumbs-up

@@ -31,6 +31,10 @@
         color: <%= theme.colors.sec %>;
     }
 
+    .center-text {
+      text-align: center;
+    }
+
     ul {
       margin: 0;
       padding-top: 0.5em;
@@ -58,7 +62,7 @@
                 <% for (var item in about) { %>
                 <div class="pure-g">
                     <div class="pure-u-6-24 col-sec capitalize"><%= item %></div>
-                    <div class="pure-u-2-24">
+                    <div class="pure-u-2-24 center-text">
                         <i class="<%= theme.icons.details.shift() %>"></i>
                     </div>
                     <div class="pure-u-16-24"><%= about[item] %></div>
@@ -71,13 +75,13 @@
                 <% for (stype in skills) { %>
                 <div class="pure-g">
                     <div class="pure-u-4-24 col-sec capitalize"><%= stype %></div>
-                    <div class="pure-u-2-24"><i class="<%= theme.icons.skill %>"></i></div>
-                    <div class="pure-u-10-24">
+                    <div class="pure-u-2-24"><i class="<%= theme.icons[stype] %>"></i></div>
+                    <div class="pure-u-8-24">
                         <% for (var skill in skills[stype]) { %>
                         <div><%= skill %></div>
                         <% } %>
                     </div>
-                    <div class="pure-u-8-24">
+                    <div class="pure-u-10-24">
                         <% for (var skill in skills[stype]) { %>
                         <div class="col-pri">
                             <% _.times(skills[stype][skill], function(){ %>
@@ -160,18 +164,5 @@
               </div>
             </div>
         </div>
-<!--
-        <footer>
-            <div>
-                <div>&nbsp;</div>
-                <div>
-                    <%= status.citizen %>
-                </div>
-                <div>
-                    Available to work <%= status.available %>
-                </div>
-            <div>
-        </footer>
--->
     </div>
 </div>
