@@ -61,8 +61,8 @@
                 <h3><i class="<%= theme.icons.about %>"></i> About</h3>
                 <% for (var item in about) { %>
                 <div class="pure-g">
-                    <div class="pure-u-6-24 col-sec capitalize"><%= item %></div>
-                    <div class="pure-u-2-24 center-text">
+                    <div class="pure-u-5-24 col-sec capitalize"><%= item %></div>
+                    <div class="pure-u-3-24 center-text">
                         <i class="<%= theme.icons.details.shift() %>"></i>
                     </div>
                     <div class="pure-u-16-24"><%= about[item] %></div>
