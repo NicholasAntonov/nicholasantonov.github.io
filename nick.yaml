@@ -35,11 +35,11 @@ experiences:
       title: Fullstack Developer Internship
       company: Occamsec
       bullets:
-          - Sole developer in a small tech company
-          - Responsible for creating applications for internal use
-          - Built tools to store, analyze, and visualize data in graph databases
-          - Parsed and reverse engineered proprietary file formats to proccess
-          - Wrote scripts to automate tasks for penetration testers
+          - Took a leadership role in software design and implementation
+          - Gained knowledge of the needs of pentesters to define project specifications
+          - Architected and implemented tools to store, analyze, and visualize data
+          - Parsed and reverse engineered proprietary file formats
+          - Wrote scripts to automate recurring tasks
     - timespans:
           - "5/14 ~ 8/14"
           - "1/15 ~ 5/15"
