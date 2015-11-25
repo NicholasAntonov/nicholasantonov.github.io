@@ -62,6 +62,7 @@ projects:
     - Web based games written for 24 hour game jams. Javascript, HTML5, Canvas.
     - Website for school spirit week, with a team. HTML, Javascript, CSS.
     - Multiple reactive web applications using technologies such as Meteor and Mithril.
+    - Hackathon team project to control an egg cooker with a web UI. Socket.io, Express
 
 currentEducation:
     Stevens Institute of Technology:
