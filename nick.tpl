@@ -17,6 +17,7 @@
     h3 {
         font-size: 28px;
         margin-bottom: 5px;
+        -webkit-margin-before: 0.9em;
     }
 
     .capitalize:first-letter {
@@ -96,30 +97,6 @@
         </div>
 
         <div class="pure-u-2-2">
-            <h3><i class="<%= theme.icons.education %>"></i> Currently Attending</h3>
-            <% for (var institute in currentEducation) { %>
-              <div class="pure-g">
-                <div class="pure-u-1-5 col-sec capitalize"><%= institute %></div>
-                <div class="pure-u-4-5">
-                    <div>
-                        <b>Major:</b> <%= currentEducation[institute].major %>
-                    </div>
-                </div>
-            </div>
-            <div class="pure-g">
-              <div class="pure-u-2-24"></div>
-              <div class="pure-u-22-24">
-                <ul>
-                    <% currentEducation[institute].notes.forEach(function (note) { %>
-                    <li><%= note %>
-                    <% }); %>
-                </ul>
-              </div>
-            </div>
-            <% } %>
-        </div>
-
-        <div class="pure-u-2-2">
             <h3><i class="<%= theme.icons.experience %>"></i> Experience</h3>
             <% experiences.forEach(function (experience) {  %>
             <div style="margin-top:9px;" class="pure-g">
@@ -164,5 +141,31 @@
               </div>
             </div>
         </div>
+
+        <div class="pure-u-2-2">
+            <h3><i class="<%= theme.icons.education %>"></i> Currently Attending</h3>
+            <% for (var institute in currentEducation) { %>
+              <div class="pure-g">
+                <div class="pure-u-1-5 col-sec capitalize"><%= institute %></div>
+                <div class="pure-u-4-5">
+                    <div>
+                        <b>Major:</b> <%= currentEducation[institute].major %>
+                    </div>
+                </div>
+            </div>
+            <div class="pure-g">
+              <div class="pure-u-2-24"></div>
+              <div class="pure-u-22-24">
+                <ul>
+                    <% currentEducation[institute].notes.forEach(function (note) { %>
+                    <li><%= note %>
+                    <% }); %>
+                </ul>
+              </div>
+            </div>
+            <% } %>
+        </div>
+
+
     </div>
 </div>
