@@ -5,7 +5,7 @@ name:
 
 
 whois:
-    - Software Developer
+    - Software Engineer
     - Student
     - Technology Enthusiast
 
@@ -22,8 +22,8 @@ skills:
     coding:
         "JavaScript": 5
         "Java, C++": 4
-        "Python": 3
-        "C": 2
+        "Python, C": 3
+        "Scheme": 2
     tools:
         "Linux, Bash": 3
         "Git": 3
@@ -59,10 +59,10 @@ projects:
     - Modular Game engine with game to demonstrate features. C++, Ncurses.
     - IRC bot that manipulates the chat of interactive twitch.tv streams. Python, Sockets.
     - Gravity based game written for a 48 hours game jam. Java, OpenGL.
-    - Web based games written for 24 hour game jams. Javascript, HTML5, Canvas.
+    - Web-based games written for 24 hour game jams. Javascript, HTML5, Canvas.
     - Website for school spirit week, with a team. HTML, Javascript, CSS.
     - Multiple reactive web applications using technologies such as Meteor and Mithril.
-    - Hackathon team project to control an egg cooker with a web UI. Socket.io, Express
+    - Hackathon team project to control an egg cooker with a web UI. Socket.io, Express.
 
 currentEducation:
     Stevens Institute of Technology:
@@ -75,15 +75,14 @@ currentEducation:
 
 interests:
     coding:
-        - Operating systems
-        - Compilers
+        - Functional Programmign
+        - Web Tooling
     hardware:
-        - Arduino
         - RaspberryPi
     misc:
-        - Motorcycles
-        - Drawing
-        - Piano
+        - Sailing
+        - Surfing
+        - Snowboarding
 
 
 status:
