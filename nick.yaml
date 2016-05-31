@@ -52,7 +52,13 @@ experiences:
           - Worked as part of a cohesive programming team with git
           - Modernized Javascript stack with tools like JSPM, Yeoman, and Gulp
           - Worked with external clients to create reactive web applications
-
+    - timespans:
+          - "6/16 ~ 8/16"
+      title: Software Engineer Internship
+      company: Jet.com
+      bullets:
+          - Front end web development for a large online marketplace
+          - Development using react and express
 
 
 projects:
