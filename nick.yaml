@@ -31,6 +31,15 @@ skills:
 
 experiences:
     - timespans:
+          - "6/16 ~ 8/16"
+      title: Software Engineer Internship
+      company: Jet.com
+      bullets:
+          - Developed the front end of Jet with tight performance and compatability constraints
+          - Created BDD style testing frameworks for automated browser tests
+          - Improved build processes across the front end team
+          - Added meta information and social media integration to the site
+    - timespans:
           - "8/15 ~ 12/15"
       title: Fullstack Developer Internship
       company: Occamsec
@@ -49,17 +58,8 @@ experiences:
           - Modified and extended our in-house JavaScript framework
           - Refactored and built custom data visualizations using D3.js
           - Built and packaged single page mobile web applications
-          - Worked as part of a cohesive programming team with git
           - Modernized Javascript stack with tools like JSPM, Yeoman, and Gulp
           - Worked with external clients to create reactive web applications
-    - timespans:
-          - "6/16 ~ 8/16"
-      title: Software Engineer Internship
-      company: Jet.com
-      bullets:
-          - Front end web development for a large online marketplace
-          - Development using react and express
-
 
 projects:
     - Modular Game engine with game to demonstrate features. C++, Ncurses.
@@ -67,21 +67,22 @@ projects:
     - Gravity based game written for a 48 hours game jam. Java, OpenGL.
     - Web-based games written for 24 hour game jams. Javascript, HTML5, Canvas.
     - Website for school spirit week, with a team. HTML, Javascript, CSS.
-    - Multiple reactive web applications using technologies such as Meteor and Mithril.
+    - Multiple reactive web applications using technologies such as Meteor and React.
     - Hackathon team project to control an egg cooker with a web UI. Socket.io, Express.
 
 currentEducation:
-    Stevens Institute of Technology:
+    Stevens Institute<br/> of Technology:
         status: Currently attending
         major: Computer Science
         notes:
           - Upsilon Pi Epsilon CS Honors Society
           - Presidential Scholarship
           - Dean's List
+          - Computer Science Club
 
 interests:
     coding:
-        - Functional Programmign
+        - Functional Programming
         - Web Tooling
     hardware:
         - RaspberryPi

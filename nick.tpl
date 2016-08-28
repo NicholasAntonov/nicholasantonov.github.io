@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>TPL</title>
+<title>Nicholas Antonov</title>
 <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">        <style>
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<style>
     .pure-g [class *= "pure-u"] {
         font-family: 'Ubuntu', sans-serif;
     }
 
     h1 {
-        font-size: 42px;
+        font-size: 38px;
         margin-bottom: 0px;
     }
 
     h3 {
-        font-size: 28px;
+        font-size: 24px;
         margin-bottom: 5px;
         -webkit-margin-before: 0.9em;
     }
