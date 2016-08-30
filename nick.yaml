@@ -35,10 +35,10 @@ experiences:
       title: Software Engineer Internship
       company: Jet.com
       bullets:
-          - Developed the front end of Jet with tight performance and compatability constraints
+          - Developed the front end of Jet with tight performance and compatibility constraints
           - Created BDD style testing frameworks for automated browser tests
-          - Improved build processes across the front end team
-          - Added meta information and social media integration to the site
+          - Improved build processes across the front end project
+          - Added social media integration and meta tags to the site to improve SEO
     - timespans:
           - "8/15 ~ 12/15"
       title: Fullstack Developer Internship
