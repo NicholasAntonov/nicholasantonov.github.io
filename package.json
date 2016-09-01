@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/NicholasAntonov/nicholasantonov.github.io/issues"
   },
-  "homepage": "https://github.com/NicholasAntonov/nicholasantonov.github.io#readme"
+  "homepage": "https://github.com/NicholasAntonov/nicholasantonov.github.io#readme",
+  "dependencies": {
+    "font-awesome": "^4.6.3"
+  }
 }
