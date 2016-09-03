@@ -39,7 +39,7 @@
 
     ul {
       margin: 0;
-      padding-top: 0.5em;
+      padding-top: 5px;
     }
 
     footer {
@@ -148,17 +148,29 @@
             <% for (var institute in currentEducation) { %>
               <div class="pure-g">
                 <div class="pure-u-1-5 col-sec capitalize"><%= institute %></div>
-                <div class="pure-u-4-5">
+                <div class="pure-u-2-5">
                     <div>
                         <b>Major:</b> <%= currentEducation[institute].major %>
+                    </div>
+                </div>
+                <div class="pure-u-2-5">
+                    <div>
+                        <b>Major GPA:</b> <%= currentEducation[institute].mgpa %>
                     </div>
                 </div>
             </div>
             <div class="pure-g">
               <div class="pure-u-2-24"></div>
-              <div class="pure-u-22-24">
+              <div class="pure-u-11-24">
                 <ul>
                     <% currentEducation[institute].notes.forEach(function (note) { %>
+                    <li><%= note %>
+                    <% }); %>
+                </ul>
+              </div>
+              <div class="pure-u-11-24">
+                <ul>
+                    <% currentEducation[institute].clubs.forEach(function (note) { %>
                     <li><%= note %>
                     <% }); %>
                 </ul>

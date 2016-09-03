@@ -74,11 +74,15 @@ currentEducation:
     Stevens Institute<br/> of Technology:
         status: Currently attending
         major: Computer Science
+        mgpa: "3.75"
         notes:
           - Upsilon Pi Epsilon CS Honors Society
           - Presidential Scholarship
-          - Dean's List
-          - Computer Science Club
+          - "Dean's List"
+        clubs:
+          - Stevens Computer Science Club
+          - Stevens Game Development Club
+          - Stevens Cyber Defense Team
 
 interests:
     coding:
