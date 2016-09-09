@@ -100,9 +100,27 @@
          font-family: 'Roboto', sans-serif;
      }
     </style>
+    <script async custom-element="amp-analytics"
+            src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
   </head>
   <body>
+    <amp-analytics type="googleanalytics" id="analytics1">
+      <script type="application/json">
+      {
+        "vars": {
+          "account": "UA-83948502-1"
+        },
+        "triggers": {
+          "trackPageview": {
+            "on": "visible",
+            "request": "pageview"
+          }
+        }
+      }
+      </script>
+    </amp-analytics>
+
     <div class="app">
         <h1>Nicholas&#8203;<span class="accent">&#8203;Antonov</span></h1>
         <ul class="slashed">
