@@ -112,10 +112,37 @@
           "account": "UA-83948502-1"
         },
         "triggers": {
-          "trackPageview": {
-            "on": "visible",
-            "request": "pageview"
-          }
+            "trackPageview": {
+                "on": "visible",
+                "request": "pageview"
+            },
+            "trackClickOnGithub" : {
+                "on": "click",
+                "selector": "#github",
+                "request": "event",
+                "vars": {
+                    "eventCategory": "external-link",
+                    "eventAction": "github-click"
+                }
+            },
+            "trackClickOnResume" : {
+                "on": "click",
+                "selector": "#resume",
+                "request": "event",
+                "vars": {
+                    "eventCategory": "external-link",
+                    "eventAction": "resume-click"
+                }
+            },
+            "trackClickOnLinkedin" : {
+                "on": "click",
+                "selector": "#linkedin",
+                "request": "event",
+                "vars": {
+                    "eventCategory": "external-link",
+                    "eventAction": "linkedin-click"
+                }
+            }
         }
       }
       </script>
@@ -129,15 +156,15 @@
             <li>Tech Enthusiast</li>
         </ul>
         <section class="social-media">
-            <a href="https://github.com/nicholasantonov">
+            <a href="https://github.com/nicholasantonov" id="github">
                 <span class="sr-only">Github</span>
                 <i class="fa fa-github fa-2x fa-fw"></i>
             </a>
-            <a href="/nicholasantonov.pdf">
+            <a href="/nicholasantonov.pdf" id="resume">
                 <span class="sr-only">Resume</span>
                 <i class="fa fa-file-text fa-2x fa-fw"></i>
             </a>
-            <a href="https://www.linkedin.com/in/nicholasantonov">
+            <a href="https://www.linkedin.com/in/nicholasantonov" id="linkedin">
                 <span class="sr-only">Linkedin</span>
                 <i class="fa fa-linkedin-square fa-2x fa-fw"></i>
             </a>
