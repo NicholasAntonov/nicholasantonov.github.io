@@ -6,6 +6,9 @@
 <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
 <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 <style>
+    body {
+        box-sizing: border-box;
+    }
     .pure-g [class *= "pure-u"] {
         font-family: 'Ubuntu', sans-serif;
     }
@@ -40,6 +43,15 @@
     ul {
       margin: 0;
       padding-top: 5px;
+    }
+
+    .tag {
+      display: inline-block;
+      margin: 3px 0px;
+      border: solid 1px #2ECCFA;
+      padding: 3px 4px;
+      border-radius: 3px;
+      background-color: #E7E7E7;
     }
 
     footer {
@@ -78,18 +90,9 @@
                 <div class="pure-g">
                     <div class="pure-u-4-24 col-sec capitalize"><%= stype %></div>
                     <div class="pure-u-2-24"><i class="<%= theme.icons[stype] %>"></i></div>
-                    <div class="pure-u-8-24">
+                    <div class="pure-u-12-24">
                         <% for (var skill in skills[stype]) { %>
-                        <div><%= skill %></div>
-                        <% } %>
-                    </div>
-                    <div class="pure-u-10-24">
-                        <% for (var skill in skills[stype]) { %>
-                        <div class="col-pri">
-                            <% _.times(skills[stype][skill], function(){ %>
-                            <i class="<%= theme.icons.level %>"></i>
-                            <% }); %>
-                        </div>
+                        <span class="tag"><%= skills[stype][skill] %></span>
                         <% } %>
                     </div>
                 </div>

@@ -20,14 +20,20 @@ about:
 
 skills:
     coding:
-        "JavaScript": 5
-        "Java, C++": 4
-        "Python, C": 3
-        "Clojure": 2
+      - Javascript
+      - Python
+      - Ocaml
+      - Java
+      - Clojure
+      - C
+      - C++
+      - F#
+      - Racket
     tools:
-        "Linux, Bash": 3
-        "Git": 3
-
+      - Linux
+      - Bash
+      - SQL
+      - Git
 
 experiences:
     - timespans:
