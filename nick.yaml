@@ -46,7 +46,7 @@ experiences:
           - Created BDD style testing frameworks for automated browser tests
           - Improved build processes across the front end project
           - Containerized services for easier development using Docker
-          - Implemented existing Jet microservices at a small scale to aid new developers
+          - Implemented Jet microservices at a smaller scale to aid new developers
     - timespans:
           - "8/15 ~ 12/15"
       title: Fullstack Developer Internship
