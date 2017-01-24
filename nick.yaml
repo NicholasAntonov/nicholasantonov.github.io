@@ -38,13 +38,15 @@ skills:
 experiences:
     - timespans:
           - "6/16 ~ 8/16"
+          - "12/6 ~ 5/17"
       title: Software Engineer Internship
       company: Jet.com
       bullets:
           - Developed the front end of Jet with tight performance and compatibility constraints
           - Created BDD style testing frameworks for automated browser tests
           - Improved build processes across the front end project
-          - Added social media integration and meta tags to the site to improve SEO
+          - Containerized services for easier development using Docker
+          - Implemented existing Jet microservices at a small scale to aid new developers
     - timespans:
           - "8/15 ~ 12/15"
       title: Fullstack Developer Internship
@@ -63,9 +65,8 @@ experiences:
       bullets:
           - Modified and extended our in-house JavaScript framework
           - Refactored and built custom data visualizations using D3.js
-          - Built and packaged single page mobile web applications
           - Modernized Javascript stack with tools like JSPM, Yeoman, and Gulp
-          - Worked with external clients to create reactive web applications
+          - Worked with external clients to create single page web applications
 
 projects:
     - Modular Game engine with game to demonstrate features. C++, Ncurses.
@@ -116,7 +117,7 @@ theme:
         skills: fa fa-bolt
         coding: fa fa-code
         tools: fa fa-wrench
-        experience: fa fa-gavel
+        experience: fa fa-laptop
         education: fa fa-graduation-cap
         interests: fa fa-thumbs-up
         level: fa fa-star
