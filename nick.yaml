@@ -69,11 +69,11 @@ experiences:
           - Worked with external clients to create single page web applications
 
 projects:
+    - Estimated velocity of cars from dashcam footage using neural nets. OpenCV, pyBrain.
     - Modular Game engine with game to demonstrate features. C++, Ncurses.
     - IRC bot that manipulates the chat of interactive twitch.tv streams. Python, Sockets.
     - Gravity based game written for a 48 hours game jam. Java, OpenGL.
     - Web-based games written for 24 hour game jams. Javascript, HTML5, Canvas.
-    - Website for school spirit week, with a team. HTML, Javascript, CSS.
     - Multiple reactive web applications using technologies such as Meteor and React.
     - Hackathon team project to control an egg cooker with a web UI. Socket.io, Express.
 
