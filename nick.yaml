@@ -44,7 +44,7 @@ experiences:
       bullets:
           - Developed the front end of Jet with tight performance and compatibility constraints
           - Created BDD style testing frameworks for automated browser tests
-          - Improved build processes across the front end project
+          - Created new deployment pipelines and improved build systems/technologies
           - Containerized services for easier development using Docker
           - Implemented F# microservices at a smaller scale to aid new developers
     - timespans:
