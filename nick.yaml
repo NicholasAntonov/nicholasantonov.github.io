@@ -31,14 +31,13 @@ skills:
       - Racket
     tools:
       - Linux
-      - Bash
-      - SQL
+      - Docker
       - Git
 
 experiences:
     - timespans:
           - "6/16 ~ 8/16"
-          - "12/6 ~ 5/17"
+          - "12/6 ~ 8/17"
       title: Software Engineer Internship
       company: Jet.com
       bullets:
@@ -47,6 +46,7 @@ experiences:
           - Created new deployment pipelines and improved build systems/technologies
           - Containerized services for easier development using Docker
           - Implemented F# microservices at a smaller scale to aid new developers
+          - Architected patterns to enable more thorough cross microservice testing
     - timespans:
           - "8/15 ~ 12/15"
       title: Fullstack Developer Internship
@@ -56,7 +56,6 @@ experiences:
           - Gained knowledge of the needs of pentesters to define project specifications
           - Architected and implemented tools to store, analyze, and visualize data
           - Parsed and reverse engineered proprietary file formats
-          - Wrote scripts to automate recurring tasks
     - timespans:
           - "5/14 ~ 8/14"
           - "1/15 ~ 5/15"
