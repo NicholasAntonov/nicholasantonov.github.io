@@ -6,13 +6,11 @@ name:
 
 whois:
     - Software Engineer
-    - Student
     - Technology Enthusiast
 
 
 about:
     name: Nicholas Antonov
-    address: "1 Castle Point Terrace,<br/>Hoboken N.J. Box S-0051"
     phone: "+551 482-0926"
     email: nicholas.antonov@gmail.com
     github: github.com/nicholasantonov
@@ -36,9 +34,13 @@ skills:
 
 experiences:
     - timespans:
-          - "6/16 ~ 8/16"
-          - "12/6 ~ 8/17"
-      title: Software Engineer Internship
+          - "7/18 ~ present"
+      title: Software Engineer
+      company: Google
+      bullets: []
+    - timespans:
+          - "6/16 ~ 7/18"
+      title: Software Engineer
       company: Jet.com
       bullets:
           - Developed the front end of Jet with tight performance and compatibility constraints
@@ -81,6 +83,11 @@ currentEducation:
         status: Currently attending
         major: Computer Science
         mgpa: "3.75"
+        degrees:
+          - degree: Masters of Science
+            major: Computer Science
+          - degree: Bachelors of Science
+            major: Computer Science
         notes:
           - Upsilon Pi Epsilon CS Honors Society
           - Presidential Scholarship
@@ -104,7 +111,6 @@ interests:
 
 status:
     citizen: U.S. citizen
-    available: May 2016 ~ August 2016
 
 theme:
     colors:
